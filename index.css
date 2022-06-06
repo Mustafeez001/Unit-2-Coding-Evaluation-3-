@@ -1,0 +1,99 @@
+/* Fill CSS here */
+
+div{ 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+} 
+ 
+form{ 
+    margin:auto; 
+    margin-top:20px; 
+    width: 30%; 
+    box-shadow: green; 
+    padding: 30px; 
+} 
+ 
+label{ 
+    font-size: 20px; 
+} 
+ 
+table{ 
+    border-collapse: collapse; 
+    width: 60%; 
+    margin: auto; 
+    margin-top: 50px; 
+    text-align: center; 
+} 
+ 
+table td.table th{ 
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center; 
+} 
+ 
+table tr:nth-child(even){ 
+    background-color: aquamarine; 
+} 
+ 
+table tr:hover{ 
+    background-color: bisque; 
+} 
+ 
+table thead{ 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    text-align: left; 
+    background-color: aqua; 
+    color: white; 
+    text-align: center; 
+} 
+ 
+*{ 
+    box-sizing: border-box; 
+} 
+ 
+ 
+ 
+ 
+textarea{ 
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid white; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+} 
+ 
+input[type="submit"]{ 
+    background-color: aqua; 
+    color: white; 
+    padding: 12px 20px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+ 
+input[type="submit"]:hover{ 
+    background-color: aqua; 
+} 
+ 
+ 
+.container{ 
+    border-radius: 5px; 
+    background-color: azure; 
+    padding: 20px; 
+} 
+ 
+h1{ 
+    text-align: center; 
+    font-size: 50px; 
+    text-transform: uppercase; 
+    color: blue; 
+    text-decoration:underline; 
+    
+}
+
+
